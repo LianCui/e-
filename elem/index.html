@@ -1,0 +1,219 @@
+<DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>隆川蜀味菜馆</title>
+		<script src = "js/jquery-1.10.1.min.js"></script>
+		<script src = "js/details.js"></script>
+		<script type = "text/javascript" src="js/jquery.cookie.js"></script>
+
+		
+	</head>
+		<link rel="stylesheet" href="css/shopdetails.css">
+		<link rel="stylesheet" href="css/iconfont.css">
+
+	<body>
+		<!-- 导航 -->
+		<div class = "shopbg">
+			<div class = headermidele>
+				<a href="#" class = "iconfont icon-eliaomo1 headnav"></a>
+				<a href="#" class = "iconfont icon-eliaomo headnav2"></a>
+				<a href="HOME.html" class = "headnav1">首页</a>
+				<a href="#" class = "headnav1">我的订单</a>
+				<a href="#" class = "headnav1">加盟合作</a>
+				<div class = "bgright">
+					<div class = "de_login">
+						<span class = "iconfont icon-wode myicon"></span>
+						<a href="#" class = "de_button">登录/注册</a>
+					</div>
+					<a href="#" class= "server">
+						<span class = "iconfont icon-kefu"></span>
+						服务中心
+					</a>
+					<a href="#" class= "server">规则中心</a>
+					<a href="#" class= "server">
+						<span class = "iconfont icon-dingdan"></span>
+						手机应用
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- 商家信息一览 -->
+		<div class = "shopguidebg" >
+			<div class = "shopguide">
+				<div class = "shopguideinfo">
+					<img class = "shoplogo" src="" alt="">
+					<div class = "shopinfo">
+						<h1>
+						<i id = "shopname11"></i>
+						<span>营业中</span>
+						</h1>
+						<p class = "graded"> 
+							<img src="images/star-on.png" alt="=评分4.7">
+							<img src="images/star-on.png" alt="=评分4.7">
+							<img src="images/star-on.png" alt="=评分4.7">
+							<img src="images/star-on.png" alt="=评分4.7">
+							<img src="images/star-on.png" alt="=评分4.7">
+							<span class = "starcount"></span>
+							<span class = "salemonth"></span>
+						</p>
+					</div>
+					<div class = "selectinfo">
+					</div>
+					<div class = "selectinfo1">
+						<ul>
+							<li>
+								<div id = "zonghe">
+									<span id = "grade">4.7</span><br>
+									<span id = "zonghegrade">综合评价</span><br>
+									<span id = "compare1"  >高于周边商家<i id = "compare1">63.9%</i></span>
+								</div>
+								<div id = "zonghe2">
+									<p id = "servera">服务态度：
+										<span id = "starcont">
+										<img src="images/star-on.png" alt="">
+										<img src="images/star-on.png" alt="">
+										<img src="images/star-on.png" alt="">
+										<img src="images/star-on.png" alt="">
+										</span>
+										<span class = "compare"></span>
+									</p>
+									<p id = "foodscom">菜品评价：
+										<span id = "starcont">
+										<img src="images/star-on.png" alt="">
+										<img src="images/star-on.png" alt="">
+										<img src="images/star-on.png" alt="">
+										<img src="images/star-on.png" alt="">
+										</span>
+										<span class = "compare"></span>
+									</p>
+								</div>
+							</li>
+							<li>
+								<p id = "addressinfo">
+									<span id = "shopadd">商家地址:</span>
+									<span id = "shopaddinfo"></span><br>
+									<span id = "shoptime">营业时间:</span>
+									<span id = "shoptimeinfo"></span>
+								</p>
+							</li>
+							<li >
+								<p id = "sendinfo">
+									由  
+									<span id = "sendshop">
+									</span>提供配送服务
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- 关于配送和服务 -->
+				<div class = "shopguideserver">
+					<span class = "sendspeedbg">
+						<em class = "sendspeed">平均送达速度</em>
+						<br><br>
+						<em class = "minute"></em>
+					</span>
+					<span class = "sendpricebg">
+						<em class = "sendprice">配送费</em>
+						<br><br>
+						<em class = "price"></em>
+
+					</span>
+					<span class = "startsendpricebg">
+						<em class = "startsendprice">起送价</em>
+						<br><br>
+						<em class = "startprice"></em>
+					</span>
+				</div>
+				<div class = "favor">
+					<span class = "iconfont icon-shoucang"></span>
+					<br>
+					<span class = "collect">收藏</span>
+				</div>
+			</div>
+		</div>
+		<!-- 商家导航 -->
+		<div id = "shopnav">
+			<div id = "shoptype">
+				<div id = "shoptypeleft">
+					<a id = "allshops" class = "active1" href="#">所有商品<span></span></a>
+					<a id = "shopscomm" href="#">评价<span></span></a>
+					<a id = "aptitude" href="#">商家资质</a>
+					<p id = "shopsort">
+						<a id = "paixu"	class = "active4" >默认排序</a>
+						<a id = "paixu" sign="grade" >评分<i class="iconfont icon-shuzhixiajiang"></i></a>
+						<a id = "paixu" sign ="sales">销量<i class="iconfont icon-shuzhixiajiang"></i></a>
+						<a id = "paixu" sign="price">价格<i class="iconfont icon-shuzhixiajiang"></i></a>
+					</p>
+				</div>
+				<form id = "shoptyperight">
+					<input id = "shopsearch" type="text" name="search"  placeholder="吃点什么呀">
+					<input id = "shopbutton" type="submit" name="search" value="搜索">
+				</form>
+			</div>
+		</div>
+		<div id = "shopmenubg">
+			<!-- 菜单页 -->
+			<div id = "shopmenu" class = "bg active3">
+				<div id ="shoptypes1">
+					<div id = "shoptypes">
+						<!-- <a  class = "active" href="">热销</a>
+						<a href="">优惠</a>
+						<a href="">脆皮鸡肉饭</a>
+						<a href="">超大份脆皮鸡肉饭</a>
+						<a href="">超大份脆皮鸡肉饭</a>
+						<a href="">超大份脆皮鸡肉饭</a>
+						<a href="">超大份脆皮鸡肉饭</a>
+						<a href="">超大份脆皮鸡肉饭</a>
+						<a href="">超大份脆皮鸡肉饭</a> -->
+					</div>
+				</div>
+				<!-- 具体 -->
+				<div id = "shoplistbg">
+					
+				</div>
+			</div>
+			<!-- 评论页 -->
+			<div id = "shopcomment" class = "bg">
+				<div id ="commcontent" >
+					<div id = "commentype">
+						<a  class = "active2" >全部(<span>825</span>)</a>
+						<a >满意(<span>225</span>)</a>
+						<a >不满意(<span>25</span>)</a>
+						<a >有图(<span>25</span>)</a>
+					</div>
+					<ul id = "allcomments" class="comactive">
+						
+					</ul>
+					
+				</div>
+			</div>
+			<!-- 评论页完毕 -->
+			<div id = "shopcomment" class = "bg">
+				宇宙第一
+			</div>
+			
+
+			<div id = "shopbulletin">
+						<h3 class="shopbulletin-section-title">商家公告</h3>
+						<p class="shopbulletin-content ng-binding">理工新校区可以送到楼底！！！</p>
+						<div class="shopbulletin-delivery">
+							<h4>配送说明：</h4>
+							<p class="ng-binding">配送费¥4.5</p>
+						</div>
+						<ul class="shopbulletin-supports">
+							<li ng-repeat="support in shop.supports" class="ng-binding ng-scope">
+								<span ng-style="{'background-color': '#' + support.icon_color}" class="ng-binding" style="background-color: rgb(153, 153, 153);">保
+								</span> 已加入“外卖保”计划，食品安全有保障
+							</li>
+						</ul>
+						<a href="javascript:" class="shopcomplaint" ng-click="testLogin()">举报商家</a>
+
+				</div>
+		</div>
+			
+		</div>
+
+	</body>
+</html>

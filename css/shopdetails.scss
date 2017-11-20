@@ -1,0 +1,603 @@
+*{padding:0;margin:0}
+a{text-decoration:none;
+	color:#ffffff;
+}
+li{
+	list-style:none;
+}
+
+.shopbg{
+	width:100%;
+	height:48px;
+	line-height:48px;
+	background-color: rgba(0,0,0,.4);
+	color: #fff;
+	overflow:hidden;
+	position:absolute;
+}
+body{
+	position:relative;
+	background:#F7F7F7;
+}
+.headermidele{
+	width:1180px;
+	height:48px;
+	margin:0 auto;
+}
+.headermidele .headnav{
+	float:left;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+.headnav1{
+	font-size: 16px;
+	text-align:center;
+	line-height:48px;
+	float:left;
+	color: #FFFFFF;
+	width:134px;
+}
+.headermidele .headnav2{
+	float:left;
+	color: #FFFFFF;
+	font-size:100px;
+}
+.de_login{
+	height:48px;
+	float:right;
+}
+.de_login .myicon{
+	display:inline-block;
+	font-size:25px;
+}
+.de_button{
+	display:inline-block;
+	font-size:14px;
+	line-height:48px;
+}
+.bgright{
+	width:500px;
+	float:right;
+
+}
+.bgright .server {
+	text-align:center;
+	display:inline-block;
+	height:48px;
+	width:106px;
+	color:#CCCCCC;
+	line-height:48px;
+}
+.bgright .icon-kefu, .bgright .icon-dingdan{
+	font-size:20px;
+}
+.shopguidebg{
+	width:100%;
+	height:190px;
+	background: url(../images/shop-bg0391dd.jpg) no-repeat left ;
+	padding-top:48px;
+	box-sizing:border-box;
+}
+.shopguide{
+	width:1180px;
+	height:142px;
+	margin:0 auto;
+	position:relative;
+}
+.shopguideinfo{
+	width:480px;
+	height:142px;
+	float:left;
+	vertical-align: middle;
+}
+.shopguideserver{
+	width:700px;
+	height:142px;
+	padding-right:100px;
+	box-sizing:border-box;
+	float:left;
+}
+.shoplogo{
+	float:left;
+	width:95px;
+	height:95px;
+	border-radius:50%;
+	border: 4px solid rgba(255,255,255,.3);
+	display:block;
+	margin-top:19px;
+	margin-right:15px;
+
+}
+.shopinfo{
+	width:auto;
+	height:71px;
+	float:left;
+	margin-top:35px;
+}
+.shopinfo h1{
+	font-size:20px;
+	font-weight: 400;
+	color:#FFFFFF;
+
+}
+.shopinfo h1 span{
+	font-size:16px;
+	color:green;
+	background:gray;
+
+}
+.graded{
+	margin:10px 0;
+
+}
+.graded .salemonth,.graded .starcount{
+	color:#ffffff;
+	font-size:16px;
+}
+ .shopguide .shopguideserver span{
+	display:block;
+	float:right;
+	margin-top:40px;
+	margin-left:80px;
+	text-align:center;
+	color:#FFFFFF;
+}
+.favor{
+	position:absolute;
+	right:0px;
+	top:0px;
+	background: rgba(255,255,255,.1);
+	padding: 10px 5px;
+	width: 80px;
+	border-radius:0 0 5px 5px;
+	text-align:center;
+}
+.favor .icon-shoucang{
+	background:#FFFFFF;
+}
+.collect{
+	color:#FFFFFF;
+}
+.selectinfo{
+	display:none;
+	width:480px;
+	height:142px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	background: rgba(255,255,255,.1);
+}
+.selectinfo1{
+	display:none;
+	width:480px;
+	height:243px;
+	position:absolute;
+	top:142px;
+	left:0px;
+	background:#fff;
+	z-index:100;
+
+}
+.selectinfo1 ul li{
+	list-style:none;
+	display:block;
+	border-bottom:1px dashed #EEEEEE;
+	overflow:hidden;
+}
+#zonghe{
+	width:239px;
+	text-align:center;
+	float:left;
+	border-right:1px solid #EEEEEE;
+	margin:10px 0px;
+}
+#grade{
+	font-size: 28px;
+    color: #f74342;
+}
+#zonghegrade{
+	color:#333;
+	font-size:12px;
+}
+#compare1{
+	color:#999;
+	font-size:12px;
+}
+ #compare{
+	color: #f74342;
+	font-size:12px;
+} 
+#zonghe2{
+	margin-top:15px;
+	margin-left:20px;
+	float:left;
+
+}
+#zonghe2 p{
+	margin:5px 15px;
+	color:#333;
+	font-size:12px;
+	padding-left:5px;
+}
+#addressinfo{
+	margin-left:15px;
+	font-size:14px;
+	color: #666;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+#sendinfo{
+	margin:15px 15px;
+	font-size:14px;
+	color: #666;
+}
+#sendinfo #sendshop{
+	color: #0089dc;
+	margin: 0 5px;
+}
+.shopguideinfo:hover .selectinfo,.shopguideinfo:hover .selectinfo1{
+	display:block;
+}
+#shopnav{
+	width:100%;
+	background:#fff;
+}
+#shopnav #shoptype{
+	width:1180px;
+	height:59px;
+	margin:0 auto;
+
+}
+#shoptypeleft{
+	float:left;
+	width:885px;
+	height:59px;
+}
+#shoptyperight{
+	float:right;
+	width:264px;
+	height:52px;
+}
+#shopsearch{
+	width:216px;
+	height:24px;
+	margin-top:15px;
+	border:1px solid #333;
+}
+#shopbutton{
+	height:25px;
+	margin-left:-35px;
+	background:#ffffff;
+}
+#shoptypeleft a{
+	display:block;
+	border-bottom:2px solid #fff;
+	width:112px;
+	float:left;
+	line-height:59px;
+	text-align:center;
+	color: #333;
+	font-size: 16px;
+}
+#shoptypeleft .active1{
+	border-bottom:2px solid #0089dc;;
+	color: #0089dc;
+}
+#shoptypeleft span{
+	height:16px;
+	border:1px solid gray;
+	float:right;
+	margin-top:20px;
+}
+#shopsort{
+	float:right;
+}
+#shopsort #paixu.active4{
+	color:#0089dc;
+}
+ #shopsort #paixu{
+	font-size:12px;
+	margin-right:15px;
+	line-height:12px;
+	border:none;
+	border-right:1px solid gray;
+	margin-top:25px;
+	width:77px;
+	cursor:pointer;
+
+}
+#shopmenu{
+	width:885px;
+	height:auto;
+	float:left;
+	display:none;
+
+}
+#shopmenubg .active3{
+	display:block;
+}
+#shopprove{
+	display:none;
+}
+#shoplistbg{
+
+	float:left;
+}
+#shopmenubg{
+	width:1180px;
+	height:auto;
+	margin:0 auto;
+	margin-top: 20px;
+	overflow:hidden;
+}
+#shopcomment{
+	width:885px;
+	height:auto;
+	background:pink;
+	float:left;
+	display:none;
+}
+#commcontent{
+	width:885px;
+	background:#fff;
+}
+#commentype{
+	background-color: #fafafa;
+	color: #666;
+	border-bottom: 1px solid #eee;
+	height: 45px;
+}
+#commentype a{
+	float: left;
+	height: 43px;
+	line-height: 39px;
+	padding: 0 25px;
+	width: 77px;
+	border-right: 1px solid #eee;
+	border-top: 3px solid transparent;
+	color: #333;
+	text-align: center;
+	cursor: pointer;
+	font-size: 14px;
+}
+#commentype .active2 {
+    border-top: 3px solid #0089dc;
+    border-bottom-color: #fff;
+    background-color: #fff;
+    color: #0089dc;
+}
+#allcomments{
+	height:auto;
+	display:none;
+}
+#commcontent .comactive{
+	display:block;
+}
+#allcomments li{
+	padding: 20px 0;
+	margin-left: 130px;
+	border-bottom: 1px solid #eee;
+	position:relative;
+}
+#pleacomments li{
+	padding: 20px 0;
+	margin-left: 130px;
+	border-bottom: 1px solid #eee;
+	position:relative;
+}
+#comuser{
+	float:left;
+	margin-bottom: 5px;
+	font-weight: 400;font-size: 14px;
+}
+#comtime{
+	float:right;
+	font-size: 12px;
+	color: #999;
+	margin-bottom: 5px;
+	line-height: 40px
+}
+#pleacomments h4{
+	height:25px;
+}
+#comresult p i{
+	color:#f18b1b;
+}
+#shopbulletin{
+	float:right;
+	background:#fff;
+	width:278px;
+}
+#pleased{
+	color:#f18b1b;
+	font-size:14px;
+}
+#timesend{
+	color: #999;
+	font-size: 14px;
+}
+#specificcom i{
+	color:#f18b1b;
+}
+#showpic{
+	color:blue;
+	padding:0 20px;
+}
+#describeresult{
+	color:#999;
+	font-size:14px;
+}
+#specificcom{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top: 1px solid #f7f7f7;
+}
+#comresult{
+	margin-bottom:10px;
+}
+.shopbulletin-section-title{
+	padding: 0 1em;
+	line-height: 2.8em;
+	background-color: #0089dc;
+	color: #fff;
+}
+.shopbulletin-content {
+    padding: 10px 15px;
+    line-height: 2;
+}
+.shopbulletin-delivery {
+    padding: 10px 15px;
+    background-color: #f5f5f5;
+}
+.shopbulletin-delivery h4 {
+    font-weight: 700;
+}
+.shopbulletin-supports {
+    padding: 0 15px;
+    overflow: hidden;
+}
+.shopbulletin-supports li {
+    margin: 10px 0;
+    padding-left: 30px;
+    
+}
+.shopbulletin-supports span {
+    display: inline-block;
+    margin-left: -30px;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+}
+#userinfo{
+	position:absolute;
+	width:130px;
+	height:65px;
+	left: -130px;
+	text-align: center;
+	top:13px;
+}
+#userinfo img{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+.shopcomplaint {
+    display: block;
+    line-height: 3;
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    border-top: 1px solid #eee;
+}
+#shoptypes,#shoptypes1{
+	width:885px;
+	height:auto;
+	float:left;
+	background:yellow;
+	padding: 10px 15px 5px;
+	background-color: #fff;
+	border: 1px solid #eee;
+	z-index: 201;
+	box-sizing:border-box;
+
+}
+#shoptypes1{
+	padding: 0px;
+}
+#shoptypes a {
+	cursor:pointer;
+    display: inline-block;
+    margin: 5px;
+    padding: 3px 10px;
+    width: 16%;
+    border-radius: 2px;
+    color: #666;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: top;
+}
+#shoptypes .active{
+	color: #fff;
+	background-color: #0089dc;
+}
+#typetitle{
+	padding: 20px 0 10px 15px;
+	font-size: 20px;
+	color: #333;
+	font-weight: 400;
+}
+#typetitle span{
+	font-size: 12px;
+	color: #999
+}
+#typedetails{
+	background:#ffffff;
+	width:48%;
+	float:left;
+	margin-right: 2%;
+	padding-right: 10px;
+	box-sizing:border-box;
+	margin-top:10px ;
+	margin-bottom:10px ;
+}
+
+#typedetails #shoppic {
+	float: left;
+	margin-right: 14px;
+	width: 100px;
+	height: 100px;
+	border:0;
+}
+#typedetails div h3{
+	 font-size:14px;
+ 	color: #333;
+ 	margin:10px 0px 5px 0px;
+	
+}
+#typedetails div span{
+	color:#999;
+	font-size:14px;
+}
+#typedetails div #shopprice{
+	color: #f74342;
+	font-size: 14px;
+	font-weight: 700;
+	line-height:30px;
+
+}
+#typedetails div #shopprice1{
+	color: #f74342;
+	font-size: 14px;
+	font-weight: 700;
+}
+#addcar{
+	position:absolute;
+	background-color: #0089dc;
+	color: #fff;
+	right: 10px;
+	bottom: 5px;
+	border: 0;
+	cursor: pointer;
+	width: 90px;
+	height: 26px;
+	line-height: 26px;
+	border-radius: 20px;
+	text-align: center;
+	outline: 0
+}
+#shopdetailebg{
+	position:relative;
+}
+#shoplist{
+	overflow:hidden;
+	width:885px;
+}
+#aaaa{
+	color:yellow;
+}
